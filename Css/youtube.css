@@ -28,15 +28,9 @@ p {
   margin-right: 15px;
 }
 
-.channel-picture {
-  display: inline-block;
-  width: 50px;
-  vertical-align: top;
-}
-
-.video-info {
-  display: inline-block;
-  width: 200px;
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 
 .profile-picture {
