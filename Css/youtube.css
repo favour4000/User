@@ -1,5 +1,9 @@
+/* General styling */
+
 body {
   margin: 0;
+  padding-top: 80px;
+  padding-left: 80px;
 }
 
 p {
@@ -7,6 +11,7 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 /* This is the header section */
 
 .header {
@@ -14,6 +19,14 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(228, 228, 228);
 }
 
 .left-section {
@@ -111,6 +124,17 @@ p {
 .current-user-picture {
   height: 32px;
   border-radius: 16px;
+}
+
+/* Sidebar section */
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: white;
+  width: 72px;
 }
 
 /* This is the video section */
